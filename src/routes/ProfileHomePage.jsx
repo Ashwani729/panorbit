@@ -16,7 +16,7 @@ const ProfileHomePage = () => {
     };
     fetchUser();
     console.log(user) 
-  }, [userId]); 
+  }, [userId,user]); 
 
   localStorage.setItem("userData", JSON.stringify(user)) 
   // console.log("data" , user);
